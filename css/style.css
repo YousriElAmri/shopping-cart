@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 220, 61);
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48.4vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 7px rgba(156, 156, 156, 0.5);
+    border: solid rgb(184, 184, 184) 1px;
+}
+
+.element-action {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin: 0 5px ;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #fff;
+    position: relative;
+    height: 30px;
+    padding-top: 3px;
+}
+
+input:hover {
+    cursor: pointer;
+    margin-top: -3px;
+    text-shadow: 2px 5px rgba(156, 156, 156, 0.5)
+}
+
+.shoping-total {
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.shopping-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: rgb(184, 184, 184) 2px;
+    margin: 10px;
+}
+
+.borders {
+    border-bottom: solid rgb(184, 184, 184) 1px;
+    margin: 0px -20px;
+}
+
+.element-quantity {
+    display: flex;
+}
+.element-price{
+    width: 100px ;
+    text-align: center ;
+}
+
+.element-image {
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.element-description{
+    text-align: start ;
+}
+.element-description h4{
+    margin: 5px 0px ;
+}
